@@ -1,0 +1,3 @@
+<div>
+    {{ $getState()->villaName }}
+</div>
