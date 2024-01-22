@@ -200,12 +200,12 @@ class VillaResource extends Resource
                 ->alignment(Alignment::Center)
                 ->searchable(),
                 TextColumn::make('passportDetails')
-                ->label('Owner Contact')
+                ->label('Passport Details')
                 ->toggleable(true)
                 ->alignment(Alignment::Center)
                 ->searchable(),
                 TextColumn::make('passportPhoto')
-                ->label('Owner Contact')
+                ->label('Passport Photo')
                 ->toggleable(true)
                 ->alignment(Alignment::Center)
                 ->searchable(),
