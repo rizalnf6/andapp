@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('namaOwner');
             $table->string('alamatOwner');
             $table->string('contactOwner');
+            $table->string('passportDetails');
+            $table->string('passportPhoto');
             $table->string('namaPemilikTanah');
             $table->string('sertifTanah');
             $table->date('tglsewaTanah');
@@ -44,6 +46,9 @@ return new class extends Migration
             $table->string('registered');
             $table->string('outstandingMatters');
             $table->enum('forSale', ['Yes', 'No']);
+            $table->string('managementAgreement');
+            $table->string('buildingSize');
+            $table->string('landSize');
             $table->timestamps();
         });
     }
